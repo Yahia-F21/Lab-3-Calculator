@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Interactive Calculator</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main class="app">
+			<h1 class="title">iOS Calculator</h1>
+			<section class="calculator" role="application" aria-label="calculator">
+				<div class="display" id="display">0</div>
+				<div class="keys">
+					<button class="key key--wide control" data-action="clear">AC</button>
+					<button class="key control" data-action="plus-minus">+/-</button>
+					<button class="key control" data-action="percent">%</button>
+
+					<button class="key operator" data-action="divide">÷</button>
+
+					<button class="key" data-number="7">7</button>
+					<button class="key" data-number="8">8</button>
+					<button class="key" data-number="9">9</button>
+					<button class="key operator" data-action="multiply">×</button>
+
+					<button class="key" data-number="4">4</button>
+					<button class="key" data-number="5">5</button>
+					<button class="key" data-number="6">6</button>
+					<button class="key operator" data-action="subtract">−</button>
+
+					<button class="key" data-number="1">1</button>
+					<button class="key" data-number="2">2</button>
+					<button class="key" data-number="3">3</button>
+					<button class="key operator" data-action="add">+</button>
+
+					<button class="key key--wide" data-number="0">0</button>
+					<button class="key" data-number=".">.</button>
+					<button class="key operator equals" data-action="equals">=</button>
+				</div>
+			</section>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
